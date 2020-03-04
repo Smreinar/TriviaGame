@@ -15,9 +15,8 @@ header {
     text-align: center;
     border: red dashed 5px;
     background: rgba(28, 250, 194, 0.726);
-    
-    margin: 0 auto;
     padding: 0 auto;
+    margin: 0 auto;
 }
 h1, h4 {
     font-family: cursive;
@@ -39,6 +38,12 @@ h1, h4 {
     90%{color: DodgerBlue;}
     100%{color: orange;}
   }
+#timer {
+    background: rgba(251, 255, 0, 0.9);
+    border: red solid 5px;
+    text-align: center;
+    
+}
 
 #qt0, #qt1, #qt2, #qt3, #qt4 {
     background: rgba(251, 255, 0, 0.9);
