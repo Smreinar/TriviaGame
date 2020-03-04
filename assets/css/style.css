@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_SuperMarioWorld_image1600w.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+.container {
+   
+    
+    padding-top: 25px;
+}
+header {
+    text-align: center;
+    border: red dashed 5px;
+    background: rgba(28, 250, 194, 0.726);
+    
+    margin: 0 auto;
+    padding: 0 auto;
+}
+h1, h4 {
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #000000;
+    
+    animation: rainbow 8s infinite;
+     
+}
+@keyframes rainbow {
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+  }
+
+#qt0, #qt1, #qt2, #qt3, #qt4 {
+    background: rgba(251, 255, 0, 0.9);
+    border: red solid 5px;
+    
+}
+

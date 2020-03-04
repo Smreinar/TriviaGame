@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <title>Trivia Game</title>
+        <!--Bootstrap Link-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    </head>
+    <br><br>
+    <body>
+        
+
+        <div class="container">
+
+            <header>
+                <h1>Nitendo Mario Trivia Game</h1>
+                <h4>Are you a fan of Mario?</h4>
+            </header>
+
+            <div class="row">
+                
+                <div class="col-md-12">
+                    <div id="results"></div>
+                </div>
+
+                <div class="col-md-12">
+                    <form name="quizForm" onsubmit="return submitAnswers()">
+                        <br>
+                        <div id="qt0">
+                            <h3>1) Who is Mario's Sidekick?</h3>
+                            <input type="radio" name="q1" value="a" id="q1a">A. Peach<br>
+                            <input type="radio" name="q2" value="b" id="q2a">B. Toad<br>
+                            <input type="radio" name="q3" value="c" id="q3a">C. Luighi<br>
+                            <input type="radio" name="q4" value="d" id="q4a">D. Link<br>
+                        </div>
+                            <br>
+                        <div id="qt1">
+                            <h3>2) How many copies were sold of the orginal Super Mario Brother Game?</h3>
+                            <input type="radio" name="q1" value="a" id="q1a">A. 30 million copies<br>
+                            <input type="radio" name="q2" value="b" id="q2a">B. 1 million copies<br>
+                            <input type="radio" name="q3" value="c" id="q3a">C. 40 million copies<br>
+                            <input type="radio" name="q4" value="d" id="q4a">D. 1,000 copies<br>
+                        </div>
+                            <br>
+                        <div id="qt2">
+                            <h3>3) What year was Super Mario Bros released?</h3>
+                            <input type="radio" name="q1" value="a" id="q1a">A. 1990<br>
+                            <input type="radio" name="q2" value="b" id="q2a">B. 1985<br>
+                            <input type="radio" name="q3" value="c" id="q3a">C. 1995<br>
+                            <input type="radio" name="q4" value="d" id="q4a">D. 1989<br>
+                        </div>
+                            <br>
+                        <div id="qt3">
+                            <h3>4) Who is the villian for Mario?</h3>
+                            <input type="radio" name="q1" value="a" id="q1a">A. King Dedede<br>
+                            <input type="radio" name="q2" value="b" id="q2a">B. King K. Rool<br>
+                            <input type="radio" name="q3" value="c" id="q3a">C. Dark Samus<br>
+                            <input type="radio" name="q4" value="d" id="q4a">D. Bowser<br>
+                        </div>
+                            <br>
+                        <div id="qt4">
+                            <h3>5) In Super Mario World you get to ride on who's back?</h3>
+                            <input type="radio" name="q1" value="a" id="q1a">A. Yoshi<br>
+                            <input type="radio" name="q2" value="b" id="q2a">B. Donkey Kong<br>
+                            <input type="radio" name="q3" value="c" id="q3a">C. Boo<br>
+                            <input type="radio" name="q4" value="d" id="q4a">D. Kirby<br>
+                        </div>
+                            <br>
+                    </form>
+                    <br><br>
+
+                    
+                </div>
+
+            </div>
+
+         
+            
+        </div>
+    </body>
+
+</html>
