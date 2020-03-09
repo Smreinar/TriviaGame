@@ -23,17 +23,28 @@
             </header>
             <br><br>
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="results"></div>
-                </div>
-                <div class="col-lg-3">
-                    <div id="start-button">
-                        <button type="button" class="btn btn-danger btn-lg">-Start-</button>
+                <div class="col-lg-4">
+                    <div id="result">
+                        <p>Your Results:</p>
+                        
+                        <div class="results">
+                            <p>Finish The Test To See!</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col col-lg-3">
-                    <div id="timer">
-                        <h3>Timer: 60</h3>
+                <div class="col-lg-4">
+                    <div id="start-button">
+                        <h3>Click "Start" To Begin</h3>
+                        <button type="button" class="btn btn-danger btn-lg" id="startbtn">-Start-</button>
+                    </div>
+                </div>
+                <div class="col col-lg-4">
+                    <div id="time">
+                        <p>Timer:</p>
+
+                        <div id="timer">
+                            00:60
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,7 +107,7 @@
 
                     <div class="col-md-4">
                         <div id="done-button">
-                            <button type="button" class="btn btn-success btn-lg">DONE</button>
+                            <button type="button" class="btn btn-success btn-lg" id="donebtn">DONE</button>
                         </div>
                     </div>
                 </div>
@@ -107,6 +118,12 @@
          
             
         </div>
+        <!--Assets folder / javascript link-->
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+        <!--jQuery link-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        
     </body>
 
 </html>

@@ -38,12 +38,19 @@ h1, h4 {
     90%{color: DodgerBlue;}
     100%{color: orange;}
   }
-#timer {
+#time, #result {
     
     background: rgba(251, 255, 0, 0.9);
     border: red solid 5px;
     text-align: center;
     padding: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    
+}
+#timer, .results {
+    padding-top: 0;
+    margin-top: 0 auto;
     
 }
 
