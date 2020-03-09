@@ -23,10 +23,15 @@
             </header>
             <br><br>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="results"></div>
                 </div>
-                <div class="col col-lg-4">
+                <div class="col-lg-3">
+                    <div id="start-button">
+                        <button type="button" class="btn btn-danger btn-lg">-Start-</button>
+                    </div>
+                </div>
+                <div class="col col-lg-3">
                     <div id="timer">
                         <h3>Timer: 60</h3>
                     </div>
@@ -38,53 +43,64 @@
                 
 
                 <div class="col-md-12">
-                    <form name="quizForm" onsubmit="return submitAnswers()">
+                    
                         <br>
                         <div id="qt0">
                             <h3>1) Who is Mario's Sidekick?</h3>
-                            <input type="radio" name="q1" value="a" id="q1a">A. Peach<br>
-                            <input type="radio" name="q2" value="b" id="q2a">B. Toad<br>
-                            <input type="radio" name="q3" value="c" id="q3a">C. Luighi<br>
-                            <input type="radio" name="q4" value="d" id="q4a">D. Link<br>
+                            <input type="radio" name="q1" value="wrong" class="choices">A. Peach<br>
+                            <input type="radio" name="q1" value="wrong" class="choices">B. Toad<br>
+                            <input type="radio" name="q1" value="correct" class="choices">C. Luighi<br>
+                            <input type="radio" name="q1" value="wrong" class="choices">D. Link<br>
                         </div>
                             <br>
                         <div id="qt1">
                             <h3>2) How many copies were sold of the orginal Super Mario Brother Game?</h3>
-                            <input type="radio" name="q1" value="a" id="q1a">A. 30 million copies<br>
-                            <input type="radio" name="q2" value="b" id="q2a">B. 1 million copies<br>
-                            <input type="radio" name="q3" value="c" id="q3a">C. 40 million copies<br>
-                            <input type="radio" name="q4" value="d" id="q4a">D. 1,000 copies<br>
+                            <input type="radio" name="q2" value="wrong" class="choices">A. 30 million copies<br>
+                            <input type="radio" name="q2" value="wrong" class="choices">B. 1 million copies<br>
+                            <input type="radio" name="q2" value="correct" class="choices">C. 40 million copies<br>
+                            <input type="radio" name="q2" value="wrong" class="choices">D. 1,000 copies<br>
                         </div>
                             <br>
                         <div id="qt2">
                             <h3>3) What year was Super Mario Bros released?</h3>
-                            <input type="radio" name="q1" value="a" id="q1a">A. 1990<br>
-                            <input type="radio" name="q2" value="b" id="q2a">B. 1985<br>
-                            <input type="radio" name="q3" value="c" id="q3a">C. 1995<br>
-                            <input type="radio" name="q4" value="d" id="q4a">D. 1989<br>
+                            <input type="radio" name="q3" value="wrong" class="choices">A. 1990<br>
+                            <input type="radio" name="q3" value="correct" class="choices">B. 1985<br>
+                            <input type="radio" name="q3" value="wrong" class="choices">C. 1995<br>
+                            <input type="radio" name="q3" value="wrong" class="choices">D. 1989<br>
                         </div>
                             <br>
                         <div id="qt3">
                             <h3>4) Who is the villian for Mario?</h3>
-                            <input type="radio" name="q1" value="a" id="q1a">A. King Dedede<br>
-                            <input type="radio" name="q2" value="b" id="q2a">B. King K. Rool<br>
-                            <input type="radio" name="q3" value="c" id="q3a">C. Dark Samus<br>
-                            <input type="radio" name="q4" value="d" id="q4a">D. Bowser<br>
+                            <input type="radio" name="q4" value="wrong" class="choices">A. King Dedede<br>
+                            <input type="radio" name="q4" value="wrong" class="choices">B. King K. Rool<br>
+                            <input type="radio" name="q4" value="wrong" class="choices">C. Dark Samus<br>
+                            <input type="radio" name="q4" value="correct" class="choices">D. Bowser<br>
                         </div>
                             <br>
                         <div id="qt4">
                             <h3>5) In Super Mario World you get to ride on who's back?</h3>
-                            <input type="radio" name="q1" value="a" id="q1a">A. Yoshi<br>
-                            <input type="radio" name="q2" value="b" id="q2a">B. Donkey Kong<br>
-                            <input type="radio" name="q3" value="c" id="q3a">C. Boo<br>
-                            <input type="radio" name="q4" value="d" id="q4a">D. Kirby<br>
+                            <input type="radio" name="q5" value="correct" class="choices">A. Yoshi<br>
+                            <input type="radio" name="q5" value="wrong" class="choices">B. Donkey Kong<br>
+                            <input type="radio" name="q5" value="wrong" class="choices">C. Boo<br>
+                            <input type="radio" name="q5" value="wrong" class="choices">D. Kirby<br>
                         </div>
                             <br>
                     </form>
-                    <br><br>
+                    <br>
 
                     
                 </div>
+                
+
+                    <div class="col-md-4"></div>
+
+                    <div class="col-md-4">
+                        <div id="done-button">
+                            <button type="button" class="btn btn-success btn-lg">DONE</button>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
 
             </div>
 
